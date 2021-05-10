@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstScreen">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/preference_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your prefered activities"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Please choose at least one of the following Cardio activities:"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <CheckBox
+                android:id="@+id/checkbox_walk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCheckboxClicked"
+                android:text="Walk" />
+
+            <CheckBox
+                android:id="@+id/checkbox_run"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCheckboxClicked"
+                android:text="Run" />
+
+            <CheckBox
+                android:id="@+id/checkbox_cycle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCheckboxClicked"
+                android:text="Cycle" />
+
+            <CheckBox
+                android:id="@+id/checkbox_jumping"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCheckboxClicked"
+                android:text="Jumping Jacks" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Please choose at least one of the following Strength activities:"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <CheckBox
+                android:id="@+id/checkbox_push"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCheckboxClicked"
+                android:text="Push-ups" />
+
+            <CheckBox
+                android:id="@+id/checkbox_walkStairs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCheckboxClicked"
+                android:text="Walk the Stairs" />
+        </LinearLayout>
+
+
+    <RelativeLayout
+                android:id="@+id/relativeLayout3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <Button
+                    android:id="@+id/button_send"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:onClick="savePreferences"
+                    android:text="Save" />
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

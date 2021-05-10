@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "833239573206",
+    "firebase_url": "https://raforehealthapps.firebaseio.com",
+    "project_id": "raforehealthapps",
+    "storage_bucket": "raforehealthapps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:833239573206:android:8efc3ea9a53ff4a0a2df77",
+        "android_client_info": {
+          "package_name": "nl.vu.ehealthbase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "833239573206-7u3atumsjpaqovtan9hlcql4lk0q0gp4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCugiGoAebqJ89BL9FCZd_QFt2-3M1F_DQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "833239573206-7u3atumsjpaqovtan9hlcql4lk0q0gp4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
