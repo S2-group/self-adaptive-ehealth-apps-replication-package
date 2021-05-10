@@ -58,7 +58,11 @@ MeasurementBasedExperiment-Data
 UserStudy-Data
   .
   |--- Anonymized Daily Survey Data (Responses).xlsx  All of daily survey replies collected from the participants of the user study
+  |--- Anonymized Daily Survey Data (Responses).csv   .csv version of the daily survey replies collected from the participants of the first study
+  |--- Anonymized Daily Survey Data (Responses)-SecondUserStudy .csv version of the daily survey replies collected from the participants of the second study
   |--- Anonymized End Survey Data (Responses).xlsx    All of the end survey replies collected from the partipants of the user study
+  |--- Anonymized End Survey Data (Responses).csv     .csv version of the end survey replies collected from the partipants of the first study
+  |--- Anonymized End Survey Data (Responses)-SecondUserStudy.csv  .csv version of the end survey replies collected from the partipants of the second study
   |--- Anonymized Initial Survey Data (Responses).xlsx All of the initial survey replies collected from the participants that were selected to partake in the user study
 ```
 ### Implementation
