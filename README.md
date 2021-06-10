@@ -7,7 +7,7 @@ This study has been designed, developed, and reported by the following investiga
 - [Martina De Sanctis](https://martinadesanctis.bitbucket.io/index.html) (Gran Sasso Science Institute) 
 - [Ivano Malavolta](https://www.ivanomalavolta.com) (Vrije Universiteit Amsterdam)
 - [Mark Hoogendoorn](https://www.cs.vu.nl/~mhoogen/) (Vrije Universiteit Amsterdam)
-- [Patricia Lago](https://www.cs.vu.nl/~patricia/Patricia_Lago/Home.html) (Vrije Universiteit Amsterdam, Chalmers University of Technology)
+- [Patricia Lago](https://www.patricialago.nl) (Vrije Universiteit Amsterdam, Chalmers University of Technology)
 
 For any information, interested researchers can contact us by sending an email to any of the investigators listed above.
 The full dataset including raw data, mining scripts, and analysis scripts produced during the study are available below.
